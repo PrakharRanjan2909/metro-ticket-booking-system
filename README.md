@@ -36,8 +36,9 @@ This is a full-stack metro ticket booking system built with:
   - 🗃️ Data: stations.json (ticket pricing)
 
 API Endpoints (Backend)
+```
   1. POST /api/tickets
-
+```
 Description: Generate a new ticket between two stations
 
 Request Body:
@@ -55,17 +56,18 @@ Response:
   "price": 15,
   "expiryTime": "2025-08-04T18:23:00"
 }
-
+```
 2. POST /api/tickets/{id}/entry
-
+```
 Description: Mark entry using the ticket
 
   Path Variable: {id} → Ticket ID
   
   Response: Confirmation or error (e.g., already used, expired, etc.)
 
-
+```
 3. POST /api/tickets/{id}/exit
+```
   Description: Mark exit using the ticket
   
   Path Variable: {id} → Ticket ID
