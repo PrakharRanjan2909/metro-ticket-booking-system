@@ -1,17 +1,20 @@
 # How to Run
 
 ## 1. Start Backend (Spring Boot)
+```
 cd ticketbooking/src/main/java/com/metro/ticketbooking
 run TicketbookingApplication.java file
-
+```
 
 Backend runs at: http://localhost:8080
 
 
 ## 2. Start Frontend (React + Vite, built already)
+```
 cd metro-frontend
 npm install
 npm run dev
+```
 
 Frontend runs at: http://localhost:5173
 
