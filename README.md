@@ -37,7 +37,8 @@ This is a full-stack metro ticket booking system built with:
 
 API Endpoints (Backend)
   1. POST /api/tickets
-    Description: Generate a new ticket between two stations
+
+Description: Generate a new ticket between two stations
 
 Request Body:
 
@@ -56,7 +57,8 @@ Response:
 }
 
 2. POST /api/tickets/{id}/entry
-  Description: Mark entry using the ticket
+
+Description: Mark entry using the ticket
 
   Path Variable: {id} → Ticket ID
   
